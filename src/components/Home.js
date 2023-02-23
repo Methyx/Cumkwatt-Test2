@@ -20,7 +20,6 @@ const Home = () => {
         url += "?i=" + inclination;
         url += "&o=" + orientation;
         const response = await axios.get(url);
-        console.log(response.data);
         setResult(response.data);
         return;
       } catch (error) {
