@@ -1,0 +1,10 @@
+header {
+  height: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 15vmin;
+}
