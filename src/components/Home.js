@@ -83,7 +83,7 @@ const Home = () => {
       {result && (
         <section className="results">
           <p>Coefficient de rendement à appliquer</p>
-          <p className="coef">{result}</p>
+          <p className="coef">{Number(result).toFixed(2)}</p>
         </section>
       )}
     </main>
